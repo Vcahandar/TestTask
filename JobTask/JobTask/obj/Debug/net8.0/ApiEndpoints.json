@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "JobTask.Controllers.MessageController",
+    "Method": "ReceiveType1Message",
+    "RelativePath": "api/Message/type1",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "JobTask.Models.MessageModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JobTask.Controllers.MessageController",
+    "Method": "ReceiveType2Message",
+    "RelativePath": "api/Message/type2",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "JobTask.Models.MessageModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
